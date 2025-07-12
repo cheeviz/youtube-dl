@@ -1,4 +1,4 @@
-from pytube import YouTube
+from pytubefix import YouTube
 import os
 def DownloadAudio(link, caminho_salvar):
     yt = YouTube(link)

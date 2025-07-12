@@ -18,7 +18,6 @@ def centralizar_janela(root, largura, altura):
 
 window = customtkinter.CTk()
 window.resizable(False, False)
-window.iconbitmap("D:\WORKSPACE\youtube-download\youtube-logo_1.ico")
 largura_janela = 600
 altura_janela = 400
 centralizar_janela(window, largura_janela, altura_janela)
